@@ -32,7 +32,7 @@ It mimics a real-world backend system (like FastAPI) while running entirely in a
 ├── SQLi_Detection_Model.pkl     # ML model for SQL injection detection
 ├── tfidf_vectorizer2.pkl        # Vectorizer for XSS detection
 ├── XSS_Detection_Model.pkl      # ML model for XSS attack detection
-├── Secure_Login_Demo.ipynb      # Main demo notebook (Gradio interface)
+├── main.ipynb                   # Main demo notebook (Gradio interface)
 ├── requirements.txt             # Python dependencies
 └── README.md                    # Project documentation
 ```
