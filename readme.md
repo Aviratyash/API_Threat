@@ -30,7 +30,7 @@ It mimics a real-world backend system (like FastAPI) while running entirely in a
 .
 ├── tfidf_vectorizer.pkl         # Vectorizer for SQL detection
 ├── SQLi_Detection_Model.pkl     # ML model for SQL injection detection
-├── xss_vectorizer.pkl           # Vectorizer for XSS detection
+├── tfidf_vectorizer2.pkl        # Vectorizer for XSS detection
 ├── XSS_Detection_Model.pkl      # ML model for XSS attack detection
 ├── Secure_Login_Demo.ipynb      # Main demo notebook (Gradio interface)
 ├── requirements.txt             # Python dependencies
@@ -46,10 +46,10 @@ No setup needed. Just open the notebook and run all cells.
 1. Upload the following files to your Colab session:
    - `tfidf_vectorizer.pkl`
    - `SQLi_Detection_Model.pkl`
-   - `xss_vectorizer.pkl`
+   - `tfidf_vectorizer2.pkl`
    - `XSS_Detection_Model.pkl`
 
-2. Run the `Secure_Login_Demo.ipynb` notebook
+2. Run the `main.ipynb` notebook
 
 3. A Gradio link will appear — click to interact with your login/register UI
 
@@ -57,7 +57,7 @@ No setup needed. Just open the notebook and run all cells.
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/your-username/secure-login-ml.git
+git clone https://github.com/Aviratyash/API_Threat.git
 cd secure-login-ml
 ```
 
@@ -68,7 +68,7 @@ pip install -r requirements.txt
 
 3. Launch the notebook or run the Gradio script:
 ```bash
-jupyter notebook Secure_Login_Demo.ipynb
+jupyter notebook main.ipynb
 ```
 
 ## 📋 Requirements
